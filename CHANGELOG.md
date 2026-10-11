@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "el-language-syntax-highlight" extension will be documented in this file.
+## 0.8.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+Initial update for El 0.8.0

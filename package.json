@@ -18,8 +18,8 @@
     }],
     "grammars": [{
       "language": "ellang",
-      "scopeName": "source.ell",
-      "path": "./syntaxes/el.tmLanguage.json"
+      "scopeName": "source.ellang",
+      "path": "./syntaxes/el.tmlanguage.json"
     }]
   }
 }
