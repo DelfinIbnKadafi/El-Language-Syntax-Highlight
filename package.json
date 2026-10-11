@@ -1,0 +1,25 @@
+{
+  "name": "el-language-syntax-highlight",
+  "displayName": "El Language Syntax Highlight",
+  "description": "Syntax highlighter for El Language (Ellang)",
+  "version": "0.8.0",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ellang",
+      "aliases": ["El Language", "ellang"],
+      "extensions": [".ell"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ellang",
+      "scopeName": "source.ell",
+      "path": "./syntaxes/el.tmLanguage.json"
+    }]
+  }
+}
